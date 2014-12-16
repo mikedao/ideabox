@@ -12,20 +12,22 @@ class IdeaBoxApp  < Sinatra::Base
 		register Sinatra::Reloader
 	end
 
+	get '/' do
+	  erb :index, locals: {ideas: Idea.all}
+	end
+
 	post '/' do
+		params.inspect
 		# 1. Create an idea based on the form paramaters.
-		idea = Idea.new
+		idea = Idea.new(params['idea_title'], params['idea_description'])
 
 		# 2. Store it.
 		idea.save
 
-		# 3. Send us back to the index page to see all ideas.
-		"Creating an IDEA!"
+		# # 3. Send us back to the index page to see all ideas.
+		redirect '/'
 	end
 
 
-	get '/' do
-		erb :index
-	end
 
 end
