@@ -1,10 +1,10 @@
 ---
 ideas:
-- :title: diet
-  :description: pizza all the time
-- :title: exercises
-  :description: play video games
-- :title: app
-  :description: social network for dogs
-- :title: party
-  :description: dance all night and all day
+- title: diet
+  description: pizza all the time
+- title: exercises
+  description: play video games
+- title: app
+  description: social network for dogs
+- title: party
+  description: dance all night and all day
