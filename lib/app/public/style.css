@@ -1,10 +1,12 @@
 h1 {
+	padding: 0.8em;
+  color: white;
+  font-family: Roboto, sans-serif;
 	background-color: #3399FF;
 	text-align: center;
-	color: white;
-	float: center;
 	padding: 2% 2% 2% 2%;
-	margin: 0% 0% 0% 0%;
+	margin: auto;
+	max-width: 800px;
 }
 
 body p {
@@ -13,28 +15,40 @@ body p {
 	font-weight: bold;
 	color: white;
 	padding: 2% 2% 2% 2%;
-	margin: 0% 2% 2% 2%;	
+	margin: auto;
+	max-width: 800px;
 }
 
 form .input_form {
-	background-color: red;
+	
 	display: block;
+	max-width: 800px;
+	margin: auto;
+	padding: 2% 2% 2% 2%;
 }
 
 div.input_form input.title {
 	display: block;
-  margin: 0 auto;
-  width: 95%; height: 40px;
+  margin: auto;
+  width: 50%;
+  min-width: 400px;
+  max-width: 800px;
   line-height: 40px; font-size: 17px;
-  padding: 2% 2% 2% 2%;
+  
 }
 
-
 div.input_form textarea.description {
-	background-color: green;
 	display: block;
-	margin: 0 auto;
-	width: 95%; 
+	margin: auto;
+	min-width: 400px;
+	width: 50%;
 	line-height: 40px; font-size: 17px;
 	padding: 2% 2% 2% 2%;
+	resize: none;
+}
+
+input#button {
+	margin: auto;
+	position: relative;
+	
 }
