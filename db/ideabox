@@ -2,9 +2,13 @@
 ideas:
 - title: dieting
   description: pizza all the time
+  rank: 2
 - title: exercises
   description: play video games
+  rank: 8
 - title: app
   description: social network for dogs
+  rank: 8
 - title: party
   description: dance all night and all day
+  rank: 2
