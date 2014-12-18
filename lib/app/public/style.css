@@ -151,6 +151,7 @@ li {
 span#title {
 	font-weight: bold;
 	margin-left: 10%;
+	color: white;
 }
 
 span#desc {
@@ -159,6 +160,7 @@ span#desc {
 	margin-left: 16%;
 	margin-bottom: 2%;
 	margin-top: 2%;
+	color: white;
 }
 
 a {
@@ -166,17 +168,19 @@ a {
 	text-align: right;
 	margin-left:88%;
 	text-decoration: none;
+	color: white;
 
 }
 
 a:visited {
-	color: blue;
+	color: white;
 }
 
 footer {
 	text-align: center;
 	color: white;
 	margin-top: 5%;
+	padding-bottom: 8%;
 }
 
 #like_button {
