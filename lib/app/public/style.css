@@ -243,3 +243,6 @@ input#delete:hover{
   text-decoration: none;
 	
 	}
+hr {
+	width: 95%;
+}
