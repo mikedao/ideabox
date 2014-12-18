@@ -32,7 +32,7 @@ div.input_form input.title {
   margin: auto;
   width: 50%;
   min-width: 400px;
-  max-width: 800px;
+  max-width: 600px;
   line-height: 40px; font-size: 17px;
   
 }
@@ -41,6 +41,7 @@ div.input_form textarea.description {
 	display: block;
 	margin: auto;
 	min-width: 400px;
+	max-width: 600px;
 	width: 50%;
 	line-height: 40px; font-size: 17px;
 	padding: 2% 2% 2% 2%;
