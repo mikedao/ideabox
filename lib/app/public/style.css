@@ -164,7 +164,7 @@ span#desc {
 a {
 	display: inline;
 	text-align: right;
-	margin-left: 80%;
+	margin-left: 95%;
 	text-decoration: none;
 }
 
@@ -243,6 +243,9 @@ input#delete:hover{
   text-decoration: none;
 	
 	}
-hr {
-	width: 95%;
+
+#container {
+	margin: auto;
+	padding-top: 20px;
+	max-width: 800px;
 }

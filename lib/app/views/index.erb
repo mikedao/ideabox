@@ -17,9 +17,9 @@
 
     <h3>Existing Ideas</h3>
 
-    <ul>
+    <div id = "container">
       <% ideas.each do |idea| %>
-      <li>
+
         <form action='/<%= idea.id %>/like' method='POST' style="display: inline">
           <input id = "like_button" type='submit' value="Like"/>
         </form>
@@ -31,10 +31,12 @@
           <input id = "delete"  type='submit' value="Delete"/>
           <hr>
         </form>
-      </li>
+      
       <% end %>
-    </ul>
-    		
+
+     </div> 
+    
+    
     
   </body>
 </html>
