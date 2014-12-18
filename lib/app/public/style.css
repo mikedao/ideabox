@@ -41,8 +41,6 @@ div.input_form input.title {
   
   line-height: 40px; font-size: 17px;
   max-width: 600px;
-  -webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 
 	width: 100%;
@@ -163,4 +161,9 @@ span#desc {
 a {
 	margin-left: 10%;
 	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	color: white;
 }
