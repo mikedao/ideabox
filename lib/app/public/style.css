@@ -51,6 +51,7 @@ input#edit_title {
   margin: auto;
   margin-top: 2%;
   min-width: 200px;
+  padding: 2% 2% 2% 2%;
   
   line-height: 40px; font-size: 17px;
   max-width: 600px;
@@ -170,6 +171,7 @@ a {
 footer {
 	text-align: center;
 	color: white;
+	margin-top: 5%;
 }
 
 #like_button {

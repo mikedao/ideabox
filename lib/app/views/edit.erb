@@ -4,7 +4,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <h1 id = "top">IdeaBox</h1>
 
     <form action='/<%= idea.id %>' method='POST'>
       <p>
@@ -19,7 +18,7 @@
       <% end %>
       <input id = "edit_title" type='text' name='idea[title]' value="<%= idea.title %>"/><br/>
       <textarea id = "edit_desc" name='idea[description]'><%= idea.description %></textarea><br/>
-      <center><input type='submit'/></center>
+      <center><input id = "button" type='submit'/></center>
     </form>
   </body>
 </html>
