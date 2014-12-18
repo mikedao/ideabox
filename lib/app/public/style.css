@@ -247,5 +247,6 @@ input#delete:hover{
 #container {
 	margin: auto;
 	padding-top: 20px;
+	padding-left: 3%;
 	max-width: 800px;
 }
