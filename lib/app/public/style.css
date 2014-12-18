@@ -168,6 +168,10 @@ a {
 	text-decoration: none;
 }
 
+a:visited {
+	color: blue;
+}
+
 footer {
 	text-align: center;
 	color: white;
