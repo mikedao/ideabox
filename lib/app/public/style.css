@@ -35,6 +35,11 @@ div.input_form input.title {
   
   line-height: 40px; font-size: 17px;
   max-width: 600px;
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	width: 100%;
 }
 
 div.input_form textarea.description {
@@ -47,6 +52,11 @@ div.input_form textarea.description {
 	padding: 2% 2% 2% 2%;
 	resize: none;
 	max-width: 600px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	width: 100%;
 }
 
 input#button {
