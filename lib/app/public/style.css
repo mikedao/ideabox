@@ -64,3 +64,29 @@ input#button {
 	position: relative;
 	
 }
+
+h3 {
+	background-color: grey;
+	color: white;
+	padding: 2% 2% 2% 2%;
+	text-align: center;
+	margin: auto;
+	max-width: 800px;
+}
+
+li {
+	max-width:  800px;
+	margin: auto;
+	list-style-type: none;
+	padding-bottom: 2%;
+
+}
+
+span#title {
+	font-weight: bold;
+	margin-left: 1%;
+}
+
+span#desc {
+	margin-left: 5%;
+}
