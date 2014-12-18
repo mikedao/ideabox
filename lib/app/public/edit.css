@@ -1,4 +1,4 @@
-h1 {
+h1#top {
 	padding: 0.8em;
   color: white;
   font-family: Roboto, sans-serif;
@@ -51,7 +51,7 @@ div.input_form input.title {
 input#edit_title {
 	display: block;
   margin: auto;
-  margin-top: 2%;
+  
   min-width: 200px;
   
   line-height: 40px; font-size: 17px;
@@ -64,25 +64,7 @@ input#edit_title {
 
 }
 
-
 div.input_form textarea.description {
-	display: block;
-	margin: auto;
-	min-width: 200px;
-	
-	
-	line-height: 40px; font-size: 17px;
-	padding: 2% 2% 2% 2%;
-	resize: none;
-	max-width: 600px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-
-	width: 100%;
-}
-
-textarea#edit_desc {
 	display: block;
 	margin: auto;
 	min-width: 200px;
